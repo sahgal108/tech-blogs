@@ -18,6 +18,7 @@ const CommentsForm = ({ slug }) => {
       name: window.localStorage.getItem("name"),
       email: window.localStorage.getItem("email"),
       storeData:
+        // eslint-disable-next-line operator-linebreak
         window.localStorage.getItem("name") ||
         window.localStorage.getItem("email"),
     };

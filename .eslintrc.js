@@ -13,7 +13,8 @@ module.exports = {
   },
   plugins: ["react"],
   rules: {
-    avoidEscape: true,
+    semi: ["error", "always"],
+    quotes: ["error", "double"],
     "jsx-a11y/label-has-associated-control": 0,
     "react/jsx-props-no-spreading": 0,
     "react/react-in-jsx-scope": 0,
